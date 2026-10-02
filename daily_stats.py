@@ -123,4 +123,8 @@ def start_daily_stats(bot):
     if now.hour == STATS_HOUR and now.minute == STATS_MINUTE:
     await send_daily_stats()
     reset_daily_stats()
-
+{
+  "deploy": {
+    "startCommand": "python daily_stats.py"
+  }
+}
