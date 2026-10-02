@@ -126,5 +126,5 @@ def start_daily_stats(bot):
 {
   "deploy": {
     "startCommand": "python daily_stats.py"
-  }
+  }bot = commands.Bot(command_prefix=",", intents=intents)
 }
