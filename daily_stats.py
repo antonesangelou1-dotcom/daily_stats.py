@@ -31,7 +31,7 @@ async def send_daily_stats():
     embed.add_field(name="✏️ Edited", value=str(daily_edited), inline=True)
 
     await channel.send(embed=embed)
-``e
+`e
 @tasks.loop(minutes=1)
 async def daily_stats_checker():
     now = datetime.now()
